@@ -1,0 +1,17 @@
+.site-header-container {
+    background-image: url('../images/site-header-1.gif');
+    -webkit-text-emphasis-style: open;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.skills {
+    background-image: url('../images/skills-bg.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.footer-wrapper {
+    background-image: url('../images/footer-1.gif');
+    background-size: contain;
+}
