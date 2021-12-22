@@ -1,8 +1,10 @@
-import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import { routeComponentMappings } from '../routing/routeComponentMappings';
 import { routes } from '../routing/routes';
 import './App.css';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 function App() {
   const renderRoutes = () => (
@@ -11,29 +13,20 @@ function App() {
         Object.keys(routes).map((route) => {
           const ComponentByRoute = routeComponentMappings[routes[route]];
           return (
-            <Route path={routes[route]} element={<ComponentByRoute />} />
+            <Route key={routes[route]} path={routes[route]} element={<ComponentByRoute />} />
           )
         })
       }
     </Routes>
   );
 
-  const renderLinks = () => (
-    Object.keys(routes).map((route) => (
-      <div>
-        <Link to={routes[route]}>{route}</Link>
-      </div>
-    ))
-  );
-
   return (
     <div className="App">
-      <h1>Portfolio Header</h1>
       <Router>
+        <Header />
         {renderRoutes()}
-        {renderLinks()}
       </Router>
-      <h1>Portfolio Footer</h1>
+      <Footer />
     </div>
   );
 }
