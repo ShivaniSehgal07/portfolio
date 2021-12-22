@@ -1,0 +1,70 @@
+.footer-wrapper {
+    background-image: url('../images/footer-1.gif');
+    background-size: contain;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.flex-end {
+    justify-content: end;
+}
+
+.column {
+    width: 50%;
+    margin: auto 2%;
+}
+
+.mr-tp-8 {
+    margin-top: 8px;
+}
+
+.mr-tp-18 {
+    margin-top: 18px;
+}
+
+.pd-tp-25 {
+    padding-top: 25px;
+}
+
+.width-49-pt {
+    width: 49%;
+}
+
+.width-48-pt {
+    width: 48%;
+}
+
+.color-crimpson {
+    color: crimson;
+}
+
+.color-grey {
+    color: #56565e;
+}
+
+.bg-color-cream {
+    background-color: #f4f4f4;
+}
+
+.pointer-cursor {
+    cursor: pointer;
+    transition: color .3s ease;
+}
+
+.pointer-cursor:hover {
+    color: crimson;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
