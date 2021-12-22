@@ -1,0 +1,15 @@
+.Footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: smaller;
+  color: white;
+  height: 160px;
+  color: black;
+}
