@@ -1,0 +1,20 @@
+.services {
+    height: 100vh;
+    display: flex;
+    margin: auto 6%;
+    color: #56565e;
+}
+
+.services-content-wrapper {
+    display: block;
+    align-items: center;
+    text-align: left;
+    z-index: 1;
+    margin: auto 0;
+    padding-bottom: 7%;
+    width: 100%;
+}
+
+.services-content-wrapper>.title::after {
+    content: "what i provide";
+}
