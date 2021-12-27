@@ -1,20 +1,3 @@
-.skills {
-    height: 100vh;
-    display: flex;
-    margin: auto 6%;
-    color: #56565e;
-}
-
-.skills-content-wrapper {
-    display: block;
-    align-items: center;
-    text-align: left;
-    z-index: 1;
-    margin: auto 0;
-    padding-bottom: 7%;
-    width: 100%;
-}
-
 .skills-content-wrapper>.title::after {
     content: "what i know";
 }
@@ -33,6 +16,10 @@
 
 .skills-content .column {
     width: 30%;
+}
+
+.skills-content .left {
+    text-align: left;
 }
 
 .skills-content .skill {
@@ -56,3 +43,7 @@
     font-weight: 600;
     padding-bottom: 20px;
 }
+
+.MuiSlider-track {
+    transition: width 0.5s !important;
+  }

@@ -1,20 +1,63 @@
-.services {
-    height: 100vh;
-    display: flex;
-    margin: auto 6%;
-    color: #56565e;
-}
-
-.services-content-wrapper {
-    display: block;
-    align-items: center;
-    text-align: left;
-    z-index: 1;
-    margin: auto 0;
-    padding-bottom: 7%;
-    width: 100%;
-}
-
 .services-content-wrapper>.title::after {
     content: "what i provide";
+}
+
+.services-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 45px auto;
+}
+
+.service-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service-card {
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: #56565e;
+    color: #f4f4f4;
+    transition: all .4s ease;
+    padding: 30px 15px;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.service-card:hover {
+    background: crimson;
+}
+
+.service-logo {
+    height: 6rem;
+    width: 6rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #f4f4f4;
+    transition: all .3s ease;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-name {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0 7px;
+}
+
+.service-description {
+    font-size: 14px;
+}
+
+.slick-slide>div {
+    margin: 0 15px;
+}
+
+.slick-slide img {
+    display: unset;
 }

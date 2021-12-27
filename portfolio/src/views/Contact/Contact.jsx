@@ -4,8 +4,8 @@ import TextField from '@mui/material/TextField';
 import LoadingButton from '@mui/lab/LoadingButton';
 import SendIcon from '@mui/icons-material/Send';
 
+import localisedStrings from '../../assets/lib/localisations';
 import contactProperties, { formInputs } from '../../assets/lib/contact';
-
 import './Contact.css';
 
 class Contact extends React.Component {
@@ -48,7 +48,7 @@ class Contact extends React.Component {
         <div className="row">
           {property.icon}
           <div className="info">
-            <div className="head">{property.name}</div>
+            <div className="head">{localisedStrings[property.name]}</div>
             <div
               className={`sub-title ${property.onClick ? "pointer-cursor" : ""}`}
               onClick={property.onClick || (() => { })}
@@ -65,21 +65,21 @@ class Contact extends React.Component {
     const [nameInput, emailInput, subjectInput, messageInput] = formInputs;
     const { name, email, message, subject } = this.state;
     return (
-      <div className="contact">
-        <div className="contact-content-wrapper">
-          <h2 className="title">Contact Me</h2>
-          <div className="contact-content">
+      <div className="contact content-wrapper-parent">
+        <div className="contact-content-wrapper content-wrapper">
+          <h2 className="title">{localisedStrings["Contact Me"]}</h2>
+          <div className="contact-content content">
             <div className="column left">
-              <div className="text">Get in Touch</div>
+              <div className="text">{localisedStrings["Get in Touch"]}</div>
               <p>
-                Please feel free to reach me out.
-                If you don't get a reply immediately, I might just be coding out a new screen.
-                I'll get back to you as soon as I can. That's a promise!
+                {localisedStrings["Please feel free to reach me out."]}&nbsp;
+                {localisedStrings["If you don't get a reply immediately, I might just be coding out a new screen."]}&nbsp;
+                {localisedStrings["I'll get back to you as soon as I can. That's a promise!"]}
               </p>
               {this.renderProperties()}
             </div>
             <div className="column right">
-              <div className="text">Message me</div>
+              <div className="text">{localisedStrings["Message me"]}</div>
               <form onSubmit={this.onSubmit}>
                 <div className="fields">
                   <div className="flex flex-space-between">
@@ -108,7 +108,7 @@ class Contact extends React.Component {
                     <LoadingButton
                       loading={this.state.isLoading}
                       loadingPosition="end"
-                      type="submit" variant="contained" color="error" endIcon={<SendIcon />}>Send Message</LoadingButton>
+                      type="submit" variant="contained" color="error" endIcon={<SendIcon />}>{localisedStrings["Send Message"]}</LoadingButton>
                   </div>
                 </div>
               </form>

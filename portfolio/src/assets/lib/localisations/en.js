@@ -10,6 +10,48 @@ const en = {
   'Copyright issues': 'Copyright issues',
   'Made with': 'Made with',
   'in India!': 'in India!',
+
+  'Hello, My name is': 'Hello, My name is',
+  "I'm a": "I'm a",
+  'Hire Me': 'Hire Me',
+
+  'About me': 'About me',
+  "I'm": "I'm",
+  "and I'm a": "and I'm a",
+  'Download Resume': 'Download Resume',
+
+  'My Services': 'My Services',
+  'Web Design & Development': 'Web Design & Development',
+  'Quality Assurance': 'Quality Assurance',
+  'Optimization & Evolution': 'Optimization & Evolution',
+  'Skilled in taming a wide variety of web development tools including responsive web designs.': 'Skilled in taming a wide variety of web development tools including responsive web designs.',
+  'Sophisticated quality management approach to confirm secure, sustainable and faster web apps.': 'Sophisticated quality management approach to confirm secure, sustainable and faster web apps.',
+  'Continuously optimize and enhance web apps for higher perfomance and clean code.': 'Continuously optimize and enhance web apps for higher perfomance and clean code.',
+
+  'My Skills': 'My Skills',
+  Technologies: 'Technologies',
+  Tools: 'Tools',
+
+  'My Projects': 'My Projects',
+  "India's #1 bus transport technology company app for bus operators and agencies.": "India's #1 bus transport technology company app for bus operators and agencies.",
+  "Digital ecosystem to accelerate and enable co-commerce.": "Digital ecosystem to accelerate and enable co-commerce.",
+  "Emergency Medical Services and Ambulance Software in India.": "Emergency Medical Services and Ambulance Software in India.",
+  "Fire inspection software to generate inspection reports, work orders and quotes.": "Fire inspection software to generate inspection reports, work orders and quotes.",
+  "Carolina Herrera's official shopping website for luxury fashion and beauty products.": "Carolina Herrera's official shopping website for luxury fashion and beauty products.",
+  "Maintain properties with automated lettings to save time, hassle & money.": "Maintain properties with automated lettings to save time, hassle & money.",
+
+  'Contact Me': 'Contact Me',
+  'Get in Touch': 'Get in Touch',
+  "Please feel free to reach me out.": "Please feel free to reach me out.",
+  "If you don't get a reply immediately, I might just be coding out a new screen.": "If you don't get a reply immediately, I might just be coding out a new screen.",
+  "I'll get back to you as soon as I can. That's a promise!": "I'll get back to you as soon as I can. That's a promise!",
+  Name: 'Name',
+  Email: 'Email',
+  LinkedIn: 'LinkedIn',
+  Subject: 'Subject',
+  Message: 'Message',
+  'Message me': 'Message me',
+  'Send Message': 'Send Message',
 };
 
 export default en;
