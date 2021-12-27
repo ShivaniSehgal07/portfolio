@@ -30,7 +30,7 @@ const contactProperties = [
 
 const formInputs = [
     {
-        className: "width-48-pt",
+        className: "text-input",
         id: "outlined-basic",
         color: "error",
         label: localisedStrings["Name"],
@@ -48,7 +48,7 @@ const formInputs = [
         }
     },
     {
-        className: "width-49-pt",
+        className: "text-input",
         id: "outlined-basic",
         color: "error",
         label: localisedStrings["Email"],

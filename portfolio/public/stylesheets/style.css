@@ -7,6 +7,10 @@
     display: flex;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 .flex-center {
     justify-content: center;
 }
@@ -93,8 +97,7 @@
     transform: translateX(-50%);
 }
 
-.title::after {
-    content: "who i am";
+.title-after {
     position: absolute;
     bottom: -8px;
     left: 50%;
@@ -106,10 +109,11 @@
 }
 
 .content-wrapper-parent {
-    height: 100vh;
     display: flex;
-    margin: auto 6%;
+    margin: 0 6%;
     color: #56565e;
+    height: 100%;
+    padding: 7% 0 13% 0;
 }
 
 .content-wrapper {
@@ -118,7 +122,6 @@
     text-align: left;
     z-index: 1;
     margin: auto 0;
-    padding-bottom: 7%;
     width: 100%;
 }
 
@@ -133,4 +136,46 @@
 
 .content>.right {
     width: 50%;
+}
+
+@media (max-width: 750px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .content-wrapper-parent {
+        padding: 15% 0 8% 0;
+        height: unset;
+    }
+
+    .content>.left, .content>.right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .column {
+        margin: 0;
+    }
+    
+    .content>.right {
+        margin-top: 20px;
+    }
+
+    .title::before {
+        width: 70%;
+    }
+
+    .title-after{
+        width: fit-content;
+    }
+
+    .content-wrapper-parent::-webkit-scrollbar {
+        width: 3px;
+        height: 6px;
+    }
+    
+    .content-wrapper-parent::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        background: #c2c9d2;
+    }
 }

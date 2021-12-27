@@ -36,7 +36,9 @@ class Skills extends React.Component {
     return (
       <div className="skills content-wrapper-parent">
         <div className="skills-content-wrapper content-wrapper">
-          <h2 className="title">{localisedStrings['My Skills']}</h2>
+          <h2 className="title">{localisedStrings['My Skills']}
+          <span className="title-after">{localisedStrings['what i know']}</span>
+          </h2>
           <div className="skills-content content flex">
             <div className="column left">
               <div className="text">{localisedStrings.Technologies}</div>

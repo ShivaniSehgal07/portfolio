@@ -28,7 +28,9 @@ class Services extends React.Component {
     return (
       <div className="services content-wrapper-parent">
         <div className="services-content-wrapper content-wrapper">
-          <h2 className="title">{localisedStrings['My Services']}</h2>
+          <h2 className="title">{localisedStrings['My Services']}
+          <span className="title-after">{localisedStrings['what i provide']}</span>
+          </h2>
           <div className="services-wrapper">
             {this.renderServices()}
           </div>

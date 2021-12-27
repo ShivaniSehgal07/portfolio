@@ -28,7 +28,9 @@ class Projects extends React.Component {
     return (
       <div className="projects content-wrapper-parent">
         <div className="projects-content-wrapper content-wrapper">
-          <h2 className="title">{localisedStrings['My Projects']}</h2>
+          <h2 className="title">{localisedStrings['My Projects']}
+            <span className="title-after">{localisedStrings["what i've worked on"]}</span>
+          </h2>
           <div className="projects-wrapper">
             {this.renderProjects()}
           </div>

@@ -66,16 +66,23 @@ class About extends React.Component {
     return (
       <div className="about content-wrapper-parent">
         <div className="about-content-wrapper content-wrapper">
-          <h2 className="title">{localisedStrings['About me']}</h2>
+          <h2 className="title">{localisedStrings['About me']}
+            <span className="title-after">{localisedStrings['who i am']}</span>
+          </h2>
           <div className="about-content content">
             <div className="column left">
               <img src="images/my-pic.jpg" alt="me" />
             </div>
             <div className="column right">
-              <div className="text">{localisedStrings["I'm"]} Shivani {localisedStrings["and I'm a"]} <span className="color-crimpson">{this.state.designation}</span><span className="typed-cursor typed-cursor--blink">|</span></div>
+              <div className="text">{localisedStrings["I'm"]} Shivani {localisedStrings["and I'm a "]}
+                <div className="inline-block">
+                  <span className="color-crimpson">{this.state.designation}</span>
+                  <span className="typed-cursor typed-cursor--blink">|</span>
+                </div>
+              </div>
               <p>
                 I have worked with <b>React JS</b> for over 3 years including a little but significant experience in <b>Node JS</b> (as backend) with
-                <b> MongoDB and MySQL</b> (as databases). 
+                <b> MongoDB and MySQL</b> (as databases).
               </p>
               <div className="mr-tp-18">
                 <Button

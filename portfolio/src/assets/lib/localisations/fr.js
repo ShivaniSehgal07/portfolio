@@ -11,13 +11,19 @@ const fr = {
   'Made with': 'Fabriqué avec',
   'in India!': 'en Inde!',
 
+  'who i am': "qui suis-je",
+  'what i provide': "Ce que je fournit",
+  'what i know': "ce que je sais",
+  "what i've worked on": "Ce que j'ai travaillé sur",
+  'get in touch': "entrer en contact",
+
   'Hello, My name is': 'Bonjour, mon nom est',
   "I'm a": 'Je suis un',
   'Hire Me': 'Engagez moi',
 
   'About me': 'À propos de moi',
   "I'm": 'Je suis',
-  "and I'm a": 'et Je suis un',
+  "and I'm a ": 'et Je suis un ',
   'Download Resume': 'Télécharger CV',
 
   'My Services': 'Mes services',

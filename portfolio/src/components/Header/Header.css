@@ -1,14 +1,16 @@
 .Header {
-  margin: auto 6%;
-  padding: 2% 0;
+  margin: 0 6%;
+  padding-top: 2%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
+  z-index: 2;
+  overflow: auto;
   max-width: -webkit-fill-available;
-  z-index: 1;
+  background-color: #f4f4f4;
 }
 
 .logo {

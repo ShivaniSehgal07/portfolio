@@ -1,3 +1,7 @@
+.home-content-wrapper {
+  padding: 8% 0;
+}
+
 .name-line {
   font-size: 27px;
 }
@@ -20,11 +24,44 @@
 .home-img-wrapper {
   position: absolute;
   right: 6%;
-  height: 100%;
   display: flex;
 }
 
 .home-img {
   height: 400px;
   align-self: center;
+}
+
+@media(max-width:750px) {
+  .home-img-wrapper {
+    position: unset;
+    height: unset;
+    justify-content: center;
+  }
+
+  .home-img {
+    height: 247px;
+  }
+
+  .home {
+    flex-direction: column-reverse;
+    justify-content: start;
+  }
+
+  .home-content-wrapper {
+    margin: 0;
+    padding: 0;
+  }
+
+  .name-line {
+    font-size: 20px;
+  }
+
+  .name {
+    font-size: 50px;
+  }
+
+  .i-am-a {
+    font-size: 25px;
+  }
 }

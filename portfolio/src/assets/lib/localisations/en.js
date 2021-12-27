@@ -11,13 +11,19 @@ const en = {
   'Made with': 'Made with',
   'in India!': 'in India!',
 
+  'who i am': 'who i am',
+  'what i provide': 'what i provide',
+  'what i know': 'what i know',
+  "what i've worked on": "what i've worked on",
+  'get in touch': 'get in touch',
+
   'Hello, My name is': 'Hello, My name is',
   "I'm a": "I'm a",
   'Hire Me': 'Hire Me',
 
   'About me': 'About me',
   "I'm": "I'm",
-  "and I'm a": "and I'm a",
+  "and I'm a ": "and I'm a ",
   'Download Resume': 'Download Resume',
 
   'My Services': 'My Services',

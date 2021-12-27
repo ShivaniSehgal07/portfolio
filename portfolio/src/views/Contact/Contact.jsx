@@ -67,7 +67,9 @@ class Contact extends React.Component {
     return (
       <div className="contact content-wrapper-parent">
         <div className="contact-content-wrapper content-wrapper">
-          <h2 className="title">{localisedStrings["Contact Me"]}</h2>
+          <h2 className="title">{localisedStrings["Contact Me"]}
+            <span className="title-after">{localisedStrings['get in touch']}</span>
+          </h2>
           <div className="contact-content content">
             <div className="column left">
               <div className="text">{localisedStrings["Get in Touch"]}</div>
@@ -82,7 +84,7 @@ class Contact extends React.Component {
               <div className="text">{localisedStrings["Message me"]}</div>
               <form onSubmit={this.onSubmit}>
                 <div className="fields">
-                  <div className="flex flex-space-between">
+                  <div className="flex flex-space-between text-input-wrapper">
                     <TextField
                       {...nameInput}
                       value={name}
