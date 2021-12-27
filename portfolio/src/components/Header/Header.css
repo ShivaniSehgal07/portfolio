@@ -43,3 +43,9 @@
 .menu-items>a:hover {
   color: crimson;
 }
+
+@media(max-width:850px) {
+  .item {
+    display: none;
+  }
+}

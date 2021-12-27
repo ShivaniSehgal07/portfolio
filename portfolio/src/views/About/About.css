@@ -14,7 +14,7 @@
     font-size: large;
 }
 
-@media(max-width: 750px) {
+@media(max-width: 850px) {
     .about-content .right .text {
         display: flex;
         flex-direction: column;

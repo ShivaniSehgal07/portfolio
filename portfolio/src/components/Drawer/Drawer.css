@@ -1,0 +1,53 @@
+.MuiDrawer-root>.MuiPaper-root {
+  background-color: crimson;
+}
+
+.drawer-menu-items-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: crimson;
+  color: #f4f4f4;
+  margin-top: 5px;
+}
+
+.drawer-menu-items {
+  padding: 5px;
+  border-bottom: 1px solid #f4f4f4;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.drawer-menu-items>a {
+  text-decoration: none;
+  font-size: 18px;
+  transition: color .3s ease;
+  font-weight: 500;
+}
+
+.drawer-menu-items>a.selected {
+  font-size: 24px;
+  color: #f4f4f4;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.MuiBox-root {
+  display: none;
+  border-top-left-radius: 7% !important;
+  border-top-right-radius: 7% !important;
+}
+
+.MuiTypography-root {
+  border-top-left-radius: 7% !important;
+  border-top-right-radius: 7% !important;
+}
+
+@media (max-width: 850px) {
+  .MuiBox-root {
+    display: block;
+  }
+}

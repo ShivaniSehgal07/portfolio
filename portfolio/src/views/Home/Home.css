@@ -32,7 +32,7 @@
   align-self: center;
 }
 
-@media(max-width:750px) {
+@media(max-width:850px) {
   .home-img-wrapper {
     position: unset;
     height: unset;

@@ -56,6 +56,10 @@
     color: #56565e;
 }
 
+.color-cream {
+    color: #f4f4f4;
+}
+
 .bg-color-cream {
     background-color: #f4f4f4;
 }
@@ -138,7 +142,11 @@
     width: 50%;
 }
 
-@media (max-width: 750px) {
+.drawer {
+    display: none;
+}
+
+@media (max-width: 850px) {
     .content {
         flex-direction: column;
     }
@@ -156,7 +164,7 @@
     .column {
         margin: 0;
     }
-    
+
     .content>.right {
         margin-top: 20px;
     }
@@ -165,7 +173,7 @@
         width: 70%;
     }
 
-    .title-after{
+    .title-after {
         width: fit-content;
     }
 
@@ -173,9 +181,13 @@
         width: 3px;
         height: 6px;
     }
-    
+
     .content-wrapper-parent::-webkit-scrollbar-thumb {
         border-radius: 8px;
         background: #c2c9d2;
+    }
+
+    .drawer {
+        display: block;
     }
 }

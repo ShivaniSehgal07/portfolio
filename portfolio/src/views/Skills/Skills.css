@@ -44,7 +44,7 @@
     transition: width 0.5s !important;
   }
 
-@media(max-width: 750px) {
+@media(max-width: 850px) {
     .skills-content .column {
         width: 90%;
         margin: 0 auto;

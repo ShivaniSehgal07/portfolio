@@ -36,7 +36,7 @@ function Header(props) {
   const renderLinks = () => (
     <>
       {Object.keys(routes).map((route) => (
-        <div key={routes[route]} className="menu-items">
+        <div key={routes[route]} className="menu-items item">
           <Link to={routes[route]} className={location.pathname === routes[route] ? "color-crimpson" : "color-grey"}>
             {localisedStrings[route]}
           </Link>
