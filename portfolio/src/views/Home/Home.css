@@ -45,7 +45,8 @@
 
   .home {
     flex-direction: column-reverse;
-    justify-content: start;
+    justify-content: center;
+    height: 100%;
   }
 
   .home-content-wrapper {

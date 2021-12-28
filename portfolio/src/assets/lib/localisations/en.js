@@ -11,11 +11,11 @@ const en = {
   'Made with': 'Made with',
   'in India!': 'in India!',
 
-  'who i am': 'who i am',
-  'what i provide': 'what i provide',
-  'what i know': 'what i know',
-  "what i've worked on": "what i've worked on",
-  'get in touch': 'get in touch',
+  'who i am': 'WHO I AM',
+  'what i provide': 'WHAT I PROVIDE',
+  'what i know': 'WHAT I KNOW',
+  "what i've worked on": "WHAT I'VE WORKED ON",
+  'get in touch': 'GET IN TOUCH',
 
   'Hello, My name is': 'Hello, My name is',
   "I'm a": "I'm a",

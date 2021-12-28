@@ -50,6 +50,10 @@
         margin: 0 auto;
     }
 
+    .skills-content .text {
+        text-align: center;
+    }
+
     .skills-img-wrapper {
         display: none;
     }

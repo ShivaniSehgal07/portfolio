@@ -59,7 +59,7 @@ function Drawer(props) {
       <Global
         styles={{
           '.MuiDrawer-root > .MuiPaper-root': {
-            height: `calc(35% - ${drawerBleeding}px)`,
+            height: `calc(38% - ${drawerBleeding}px)`,
             overflow: 'visible',
           },
         }}
