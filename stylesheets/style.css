@@ -105,7 +105,7 @@
     position: absolute;
     bottom: -8px;
     left: 50%;
-    font-size: 20px;
+    font-size: 14px;
     color: crimson;
     padding: 0 5px;
     background: #f4f4f4;
@@ -175,6 +175,7 @@
 
     .title-after {
         width: fit-content;
+        font-size: 16px;
     }
 
     .content-wrapper-parent::-webkit-scrollbar {
