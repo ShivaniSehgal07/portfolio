@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://ShivaniSehgal07.github.io",
+  "homepage": "https://ShivaniSehgal07.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,14 +16,15 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-localization": "^1.0.17",
-    "react-responsive-carousel": "^3.2.22",
     "react-router-dom": "^6.1.1",
     "react-scripts": "4.0.3",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b production -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

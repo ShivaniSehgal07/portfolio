@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
@@ -9,18 +8,17 @@ import { routes } from '../../routing/routes';
 import './Header.css';
 
 function Header(props) {
-  const [localization, setLocalization] = useState('en');
   const location = useLocation();
 
   const handleChangeLocalization = (event, newLang) => {
     localisedStrings.setLanguage(newLang);
-    setLocalization(newLang);
+    props.setLocalization(newLang);
   };
 
   const renderLanguageOptions = () => (
     <div className="menu-items">
       <ToggleButtonGroup
-        value={localization}
+        value={props.localization}
         exclusive
         onChange={handleChangeLocalization}
         aria-label="localization"
@@ -38,7 +36,7 @@ function Header(props) {
   const renderLinks = () => (
     <>
       {Object.keys(routes).map((route) => (
-        <div key={routes[route]} className="menu-items">
+        <div key={routes[route]} className="menu-items item">
           <Link to={routes[route]} className={location.pathname === routes[route] ? "color-crimpson" : "color-grey"}>
             {localisedStrings[route]}
           </Link>
@@ -50,9 +48,11 @@ function Header(props) {
 
   return (
     <div className="Header">
-      <div className="logo">
-        Portfo<span>lio</span>
-      </div>
+      <Link to='/' className="text-decoration-none">
+        <div className="logo">
+          Portfo<span>lio</span>
+        </div>
+      </Link>
       <div className="menu">
         {renderLinks()}
       </div>

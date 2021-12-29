@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '@mui/material/Button';
 
+import localisedStrings from '../../assets/lib/localisations';
 import './About.css'
 
 const designations = [
@@ -63,25 +64,35 @@ class About extends React.Component {
   }
   render() {
     return (
-      <div className="about">
-        <div className="about-content-wrapper">
-          <h2 className="title">About me</h2>
-          <div className="about-content">
+      <div className="about content-wrapper-parent">
+        <div className="about-content-wrapper content-wrapper">
+          <h2 className="title">{localisedStrings['About me']}
+            <span className="title-after">{localisedStrings['who i am']}</span>
+          </h2>
+          <div className="about-content content">
             <div className="column left">
               <img src="images/my-pic.jpg" alt="me" />
             </div>
             <div className="column right">
-              <div className="text">I'm Shivani and I'm a <span className="color-crimpson">{this.state.designation}</span><span className="typed-cursor typed-cursor--blink">|</span></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
+              <div className="text">{localisedStrings["I'm"]} Shivani {localisedStrings["and I'm a "]}
+                <div className="inline-block">
+                  <span className="color-crimpson">{this.state.designation}</span>
+                  <span className="typed-cursor typed-cursor--blink">|</span>
+                </div>
+              </div>
+              <p>
+                I have worked with <b>React JS</b> for over 3 years including a little but significant experience in <b>Node JS</b> (as backend) with
+                <b> MongoDB and MySQL</b> (as databases).
+              </p>
               <div className="mr-tp-18">
                 <Button
                   variant="contained"
-                  href="/assets/resume.pdf"
+                  href="assets/resume.pdf"
                   color="error"
                   size="large"
                   download="Resume (Sehgal Shivani).pdf"
                 >
-                  Download Resume
+                  {localisedStrings["Download Resume"]}
                 </Button>
               </div>
             </div>

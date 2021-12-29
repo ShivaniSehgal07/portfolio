@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '@mui/material/Button';
 
+import localisedStrings from '../../assets/lib/localisations';
 import './Home.css';
 
 const designations = [
@@ -65,16 +66,16 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div className="home">
-        <div className='home-content-wrapper'>
+      <div className="home content-wrapper-parent">
+        <div className='home-content-wrapper content-wrapper'>
           <div className='name-line'>
-            Hello, My name is
+            {localisedStrings["Hello, My name is"]}
           </div>
           <div className='name'>
             Shivani Sehgal
           </div>
           <div className='i-am-a'>
-            I'm a <span className='designation'>{this.state.designation}|</span>
+            {localisedStrings["I'm a"]} <span className='designation'>{this.state.designation}|</span>
           </div>
           <div className="mr-tp-18">
             <Link to="/contact" className="text-decoration-none">
@@ -83,13 +84,13 @@ class Home extends React.Component {
                 color="error"
                 size="large"
               >
-                Hire Me
+                {localisedStrings["Hire Me"]}
               </Button>
             </Link>
           </div>
         </div>
         <div className="home-img-wrapper">
-          <img className="home-img" src="../../images/site-header-1.gif" alt="GIF"></img>
+          <img className="home-img" src="images/site-header-1.gif" alt="GIF"></img>
         </div>
       </div>
     );

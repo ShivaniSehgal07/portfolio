@@ -6,6 +6,7 @@ import MessageRoundedIcon from '@mui/icons-material/MessageRounded';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import EmailIcon from '@mui/icons-material/Email';
+import localisedStrings from '../../assets/lib/localisations';
 
 const contactProperties = [
     {
@@ -29,10 +30,10 @@ const contactProperties = [
 
 const formInputs = [
     {
-        className: "width-48-pt",
+        className: "text-input",
         id: "outlined-basic",
         color: "error",
-        label: "Name",
+        label: localisedStrings["Name"],
         variant: "outlined",
         size: "small",
         autoComplete: "off",
@@ -47,10 +48,10 @@ const formInputs = [
         }
     },
     {
-        className: "width-49-pt",
+        className: "text-input",
         id: "outlined-basic",
         color: "error",
-        label: "Email",
+        label: localisedStrings["Email"],
         variant: "outlined",
         size: "small",
         autoComplete: "off",
@@ -68,7 +69,7 @@ const formInputs = [
     {
         id: "outlined-basic",
         color: "error",
-        label: "Subject",
+        label: localisedStrings["Subject"],
         variant: "outlined",
         size: "small",
         autoComplete: "off",
@@ -86,7 +87,7 @@ const formInputs = [
     {
         id: "outlined-basic",
         color: "error",
-        label: "Message",
+        label: localisedStrings["Message"],
         variant: "outlined",
         size: "small",
         autoComplete: "off",

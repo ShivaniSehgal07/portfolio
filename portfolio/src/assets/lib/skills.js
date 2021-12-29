@@ -2,6 +2,8 @@ const techs = [
     {
         name: "React JS (Domain Expertise)",
         percent: 90,
+        style: { fontSize: "18px" }
+
     },
     {
         name: "JavaScript",

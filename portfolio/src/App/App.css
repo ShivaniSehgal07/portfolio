@@ -1,6 +1,14 @@
 .App {
   text-align: center;
   position: relative;
-  height: 100vh;
+  height: 100%;
   background-color: #f4f4f4;
+  overflow: auto;
+}
+
+@media(max-width:850px) {
+  .App {
+    height: calc(100% - 71px);
+    overflow: auto;
+  }
 }

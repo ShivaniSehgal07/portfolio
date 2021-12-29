@@ -1,7 +1,7 @@
 .Footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  width: 100vw;
+  width: 100%;
 }
 
 .footer-wrapper {
@@ -9,7 +9,17 @@
   justify-content: center;
   text-align: center;
   font-size: smaller;
-  color: white;
+  background-color: #f4f4f4;
   height: 160px;
   color: black;
+}
+
+@media(max-width:850px) {
+  .Footer {
+    bottom: 12px;
+  }
+
+  .footer-wrapper {
+    height: 80px;
+  }
 }
