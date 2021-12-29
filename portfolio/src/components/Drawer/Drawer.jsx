@@ -11,7 +11,7 @@ import { routes } from '../../routing/routes';
 import localisedStrings from '../../assets/lib/localisations';
 import './Drawer.css';
 
-const drawerBleeding = 26;
+const drawerBleeding = 30;
 
 const StyledBox = styled(Box)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'light' ? '#fff' : grey[800],
@@ -59,7 +59,7 @@ function Drawer(props) {
       <Global
         styles={{
           '.MuiDrawer-root > .MuiPaper-root': {
-            height: `calc(38% - ${drawerBleeding}px)`,
+            height: `calc(40% - ${drawerBleeding}px)`,
             overflow: 'visible',
           },
         }}
