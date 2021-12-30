@@ -25,6 +25,9 @@ const fr = {
   "I'm": 'Je suis',
   "and I'm a ": 'et Je suis un ',
   'Download Resume': 'Télécharger CV',
+  ABOUT_ME_PART_1: "J'ai travaillé avec",
+  ABOUT_ME_PART_2: "pendant plus de 3 ans avec une expérience peu mais significative dans",
+  ABOUT_ME_PART_3: "Je suis un associé multi-talentueux qui est toujours récompensé pour réussir dans la planification et les améliorations opérationnelles. J'ai une excellente réputation pour résoudre les problèmes et améliorer la satisfaction de la clientèle. Je suis motivé pour apprendre et grandir, et enthousiaste et désireux de contribuer au succès de l'équipe grâce au travail acharné, avec une attention particulière aux détails et d'excellentes compétences organisationnelles.",
 
   'My Services': 'Mes services',
   'Web Design & Development': 'Web Design & Development',

@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import Button from '@mui/material/Button';
 
 import localisedStrings from '../../assets/lib/localisations';
@@ -81,8 +82,8 @@ class About extends React.Component {
                 </div>
               </div>
               <p>
-                I have worked with <b>React JS</b> for over 3 years including a little but significant experience in <b>Node JS</b> (as backend) with
-                <b> MongoDB and MySQL</b> (as databases).
+                {localisedStrings.ABOUT_ME_PART_1} <b>React JS</b> {localisedStrings.ABOUT_ME_PART_2} <b>Node JS</b>,
+                <b> MongoDB and MySQL</b>. {localisedStrings.ABOUT_ME_PART_3}
               </p>
               <div className="mr-tp-18">
                 <Button
@@ -91,6 +92,12 @@ class About extends React.Component {
                   color="error"
                   size="large"
                   download="Resume (Sehgal Shivani).pdf"
+                  onClick={() => {
+                    ReactGA.event({
+                      action: 'Downloaded Resume',
+                      category: 'Click',
+                    });
+                  }}
                 >
                   {localisedStrings["Download Resume"]}
                 </Button>
