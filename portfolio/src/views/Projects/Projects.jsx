@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -10,7 +11,14 @@ import './Projects.css';
 class Projects extends React.Component {
   getProjects = () => (
     projects.map((project) => (
-      <div className="project-card" onClick={project.link ? () => window.open(project.link) : () => { }}>
+      <div className="project-card" onClick={project.link ? () => {
+        ReactGA.event({
+          action: 'Clicked on project',
+          category: project.name,
+          projectName: project.name,
+        });
+        window.open(project.link);
+      } : () => { }}>
         <img className="project-logo" src={project.logo} alt="logo" />
         <div className="project-name">{project.name}</div>
         <div className="project-description">{localisedStrings[project.description]}</div>

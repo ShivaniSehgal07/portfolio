@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ReactGA from 'react-ga';
 
 import { routeComponentMappings } from '../routing/routeComponentMappings';
 import { routes } from '../routing/routes';
@@ -10,6 +11,10 @@ import Drawer from '../components/Drawer';
 
 function App() {
   const [localization, setLocalization] = useState('en');
+
+  useEffect(() => {
+    ReactGA.initialize("UA-216103587-1");
+  }, []);
 
   const renderRoutes = () => (
     <Routes>
@@ -26,7 +31,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router basename={'portfolio'}>
+      <Router>
         <div className="drawer">
           <Drawer />
         </div>

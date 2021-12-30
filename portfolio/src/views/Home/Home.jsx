@@ -84,7 +84,7 @@ class Home extends React.Component {
                 color="error"
                 size="large"
               >
-                {localisedStrings["Hire Me"]}
+                {localisedStrings["Contact Me"]}
               </Button>
             </Link>
           </div>
