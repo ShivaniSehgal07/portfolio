@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga';
 import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 
@@ -13,6 +14,10 @@ function Header(props) {
   const handleChangeLocalization = (event, newLang) => {
     localisedStrings.setLanguage(newLang);
     props.setLocalization(newLang);
+    ReactGA.event({
+      action: 'Changed Localisation',
+      category: newLang,
+    });
   };
 
   const renderLanguageOptions = () => (
