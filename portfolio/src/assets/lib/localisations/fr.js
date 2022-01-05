@@ -49,6 +49,13 @@ const fr = {
   "Carolina Herrera's official shopping website for luxury fashion and beauty products.": 'Le site Web officiel de CAROLINA HERRERA pour les produits de mode de luxe et de beauté.',
   'Maintain properties with automated lettings to save time, hassle & money.': "Maintenir les propriétés avec des locations automatisées pour gagner du temps, des tracas et de l'argent.",
 
+  "Team": "Équipe",
+  "who with me": "qui avec moi",
+  "My Team": "Mon équipe",
+  UTKARSH_REC: "Shivani sait comment gérer plusieurs tâches et histoires d'utilisateurs parallèles. Elle a de bonnes compétences en gestion et en leadership.",
+  ADITI_REC: "Shivani a non seulement travaillé avec enthousiasme chaque jour, mais également la positivité de l'équipe. Elle est multi-tâches et vraiment favorable.",
+  MOHIT_REC: "Shivani est l'un des meilleurs développeurs frontaux de l'organisation. Je crois qu'elle sera un excellent atout à une équipe qu'elle rejointe à l'avenir.",
+
   'Contact Me': 'Contactez moi',
   'Get in Touch': 'Entrer en contact',
   'Please feel free to reach me out.': "S'il vous plaît n'hésitez pas à me joindre.",

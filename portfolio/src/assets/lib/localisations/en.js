@@ -4,6 +4,7 @@ const en = {
   Services: 'Services',
   Skills: 'Skills',
   Projects: 'Projects',
+  Team: 'Team',
   Contact: 'Contact',
   'Portfolio Header': 'Portfolio Header',
   'No': 'No',
@@ -15,6 +16,7 @@ const en = {
   'what i provide': 'WHAT I PROVIDE',
   'what i know': 'WHAT I KNOW',
   "what i've worked on": "WHAT I'VE WORKED ON",
+  'who with me': 'WHO WITH ME',
   'get in touch': 'GET IN TOUCH',
 
   'Hello, My name is': 'Hello, My name is',
@@ -48,6 +50,11 @@ const en = {
   "Fire inspection software to generate inspection reports, work orders and quotes.": "Fire inspection software to generate inspection reports, work orders and quotes.",
   "Carolina Herrera's official shopping website for luxury fashion and beauty products.": "Carolina Herrera's official shopping website for luxury fashion and beauty products.",
   "Maintain properties with automated lettings to save time, hassle & money.": "Maintain properties with automated lettings to save time, hassle & money.",
+
+  'My Team': 'My Team',
+  UTKARSH_REC: "Shivani knows how to handle multiple tasks and user stories parallely. She has good managing and leadership skills.",
+  ADITI_REC: "Shivani not only worked enthusiastically each day but also spread positivity in the team. She's multi tasking and really supportive.",
+  MOHIT_REC: "Shivani is one of best frontend developer in organization. I believe she'll be great asset to any team she'll join in future.",
 
   'Contact Me': 'Contact Me',
   'Get in Touch': 'Get in Touch',
