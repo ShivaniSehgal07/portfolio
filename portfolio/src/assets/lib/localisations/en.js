@@ -28,7 +28,7 @@ const en = {
   "and I'm a ": "and I'm a ",
   'Download Resume': 'Download Resume',
   ABOUT_ME_PART_1: "I have worked with",
-  ABOUT_ME_PART_2: "for over 3 years with a little but significant experience in",
+  ABOUT_ME_PART_2: "for over 4 years with a little but significant experience in",
   ABOUT_ME_PART_3: "I am a multi-talented Associate who is consistently rewarded for success in planning and operational improvements. I have an excellent reputation for resolving problems, and improving customer satisfaction. I am motivated to learn and grow, and enthusiastic and eager to contribute to team success through hard work, with attention to detail, and excellent organizational skills.",
 
   'My Services': 'My Services',

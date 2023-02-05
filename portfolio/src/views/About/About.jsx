@@ -82,7 +82,7 @@ class About extends React.Component {
                 </div>
               </div>
               <p>
-                {localisedStrings.ABOUT_ME_PART_1} <b>React JS</b> {localisedStrings.ABOUT_ME_PART_2} <b>Node JS</b>,
+                {localisedStrings.ABOUT_ME_PART_1} <b>React JS</b> {localisedStrings.ABOUT_ME_PART_2} <b>Node JS, Java</b>,
                 <b> MongoDB and MySQL</b>. {localisedStrings.ABOUT_ME_PART_3}
               </p>
               <div className="mr-tp-18">

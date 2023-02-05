@@ -2,7 +2,7 @@ const techs = [
     {
         name: "React JS (Domain Expertise)",
         percent: 90,
-        style: { fontSize: "18px" }
+        style: { fontSize: "16px" }
 
     },
     {
@@ -27,6 +27,11 @@ const techs = [
     },
     {
         name: "MongoDB | MySQL",
+        percent: 30,
+    },
+    
+    {
+        name: "Java",
         percent: 30,
     },
 ];
@@ -59,6 +64,10 @@ const tools = [
     {
         name: "Robo3t",
         percent: 70,
+    },
+    {
+        name: "IntelliJ",
+        percent: 50,
     },
 ];
 
