@@ -48,6 +48,10 @@
     margin: 10px 0 7px;
 }
 
+.team-description {
+    font-size: 14px;
+}
+
 .slick-slide>div {
     margin: 0 15px;
 }

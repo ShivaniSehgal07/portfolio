@@ -55,6 +55,7 @@ const en = {
   UTKARSH_REC: "Shivani knows how to handle multiple tasks and user stories parallely. She has good managing and leadership skills.",
   ADITI_REC: "Shivani not only worked enthusiastically each day but also spread positivity in the team. She's multi tasking and really supportive.",
   MOHIT_REC: "Shivani is one of best frontend developer in organization. I believe she'll be great asset to any team she'll join in future.",
+  JANAK_REC: "Shivani is extremely capable & regularly goes beyond her role to get job done. Her positive approach make her welcome addition to any team.",
 
   'Contact Me': 'Contact Me',
   'Get in Touch': 'Get in Touch',

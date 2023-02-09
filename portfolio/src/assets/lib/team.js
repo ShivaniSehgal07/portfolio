@@ -1,5 +1,11 @@
 const members = [
   {
+      name: "Janak Panchal",
+      link: "https://www.linkedin.com/in/janak-panchal-497aab188/",
+      description: "JANAK_REC",
+      logo: "images/janak.jpg",
+  },
+  {
       name: "Utkarsh Vashishtha",
       link: "https://www.linkedin.com/in/utkarsh-vashishtha-729172114/",
       description: "UTKARSH_REC",

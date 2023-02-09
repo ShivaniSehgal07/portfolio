@@ -55,6 +55,7 @@ const fr = {
   UTKARSH_REC: "Shivani sait comment gérer plusieurs tâches et histoires d'utilisateurs parallèles. Elle a de bonnes compétences en gestion et en leadership.",
   ADITI_REC: "Shivani a non seulement travaillé avec enthousiasme chaque jour, mais également la positivité de l'équipe. Elle est multi-tâches et vraiment favorable.",
   MOHIT_REC: "Shivani est l'un des meilleurs développeurs frontaux de l'organisation. Je crois qu'elle sera un excellent atout à une équipe qu'elle rejointe à l'avenir.",
+  JANAK_REC: "Shivani est extrêmement capable et va régulièrement au-delà de son rôle pour faire le travail. Son approche positive fait d'elle un ajout bienvenu à toute équipe.",
 
   'Contact Me': 'Contactez moi',
   'Get in Touch': 'Entrer en contact',
