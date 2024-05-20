@@ -16,7 +16,7 @@ It has following integrations:-
 3) Carousel Integration
 4) Email library integration to share contact messages over email
 
-The production url for this project is:- https://shivanisehgal.com/
+The production url for this project is:- https://shivanisehgal.pro/
 
 Also to run this project locally, follow below steps:-
 
